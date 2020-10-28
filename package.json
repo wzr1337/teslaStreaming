@@ -1,6 +1,6 @@
 {
   "name": "teslastreaming",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A module for using the tesla streamin API",
   "main": "dist/index.js",
   "dependencies": {
