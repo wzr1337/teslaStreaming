@@ -1,3 +1,3 @@
-/* global.console = Object.assign(console, {
+global.console = Object.assign(console, {
   log: jest.fn(),
-}); */
+});
