@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/wzr1337/teslaStreaming.svg?branch=master)](https://travis-ci.com/wzr1337/teslaStreaming)
 
-This module is used to connect to and listen on the Tesla streaming API, exposed via WebSocket. The API is a convenience method in extension of the regular REST API (<https://teslapi.io>), which needs to be polled.
+This module is used to connect to and listen on the Tesla streaming API, exposed via WebSocket. The API is a convenience method in extension of the regular REST API (<https://teslaapi.io>), which needs to be polled.
 
 This module is **UNOFFICIAL**.
 

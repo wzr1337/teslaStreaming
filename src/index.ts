@@ -28,14 +28,14 @@ export function teslaAPI(vehicleId:string,
 
 
   /*   
-  const subscribMessage = {
+  const subscribeMessage = {
     msg_type: 'data:subscribe',
     token: Buffer.from(`${email}:${vehilce1stToken}`).toString('base64'),
     value: signalNames.join(','),
     tag: vehicleId,
   }; */
 
-  const subscribMessageOAuth = {
+  const subscribeMessageOAuth = {
     msg_type: 'data:subscribe_oauth',
     token: oAuthToken,
     value: signalNames.join(','),
@@ -54,7 +54,7 @@ export function teslaAPI(vehicleId:string,
 
   ws.onopen = () => {
     console.debug(`WebSocket connection established on \`${streamingUrl}\``);
-    ws.send(JSON.stringify(subscribMessageOAuth));
+    ws.send(JSON.stringify(subscribeMessageOAuth));
   }
 
   return sub;
